@@ -1,0 +1,59 @@
+body {
+  background-color: #8babf1;
+}
+
+.case {
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  margin: 50px 20px;
+}
+
+/********************************* HEADER *********************************/
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  font-size: 3.2rem;
+}
+
+button.theme-control {
+  position: absolute;
+  top: 70px;
+  right: 45px;
+  padding: 5px 10px;
+  background-color: #8babf1;
+  font-size: 1.1rem;
+  font-weight: bold;
+  border-radius: 5px;
+  border-style: none;
+  transition: 0.3s ease;
+}
+
+button.theme-control:hover {
+  background-color: black;
+  color: #8babf1;
+}
+
+/********************************* BIO *********************************/
+.portrait {
+
+}
+
+.bio {
+
+}
+
+/********************************* CARD *********************************/
+.card {
+
+}
+
+.card-title {
+
+}
+
+/********************************* CONTACT *********************************/
