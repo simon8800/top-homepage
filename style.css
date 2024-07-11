@@ -1,17 +1,36 @@
+/********************************* ERRTHANG *********************************/
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
 body {
-  background-color: #8babf1;
+  background-color: #bfdcff;
 }
 
 .case {
   background-color: white;
-  padding: 20px;
+  padding: 50px 100px;
   border-radius: 5px;
-  margin: 50px 20px;
+  margin: 20px 20px;
+}
+
+.flexy {
+  display: flex;
+}
+
+.pull-right {
+  justify-content: flex-end;
+}
+
+.pull-left {
+  justify-content: flex-start;
 }
 
 /********************************* HEADER *********************************/
 header {
-  display: flex;
   justify-content: space-between;
   align-items: center;
 }
@@ -21,16 +40,12 @@ header h1 {
 }
 
 button.theme-control {
-  position: absolute;
-  top: 70px;
-  right: 45px;
   padding: 5px 10px;
   background-color: #8babf1;
   font-size: 1.1rem;
-  font-weight: bold;
   border-radius: 5px;
   border-style: none;
-  transition: 0.3s ease;
+  transition: all 0.3s ease;
 }
 
 button.theme-control:hover {
@@ -38,16 +53,39 @@ button.theme-control:hover {
   color: #8babf1;
 }
 
-/********************************* BIO *********************************/
-.portrait {
+button.theme-control:active {
+  background-color: black;
+  color: #8babf1;
+  transform: scale(0.90);
+}
 
+/********************************* ABOUT ME *********************************/
+div.about {
+  gap: 25px;
+}
+
+img.portrait {
+  width: 40vw;
 }
 
 .bio {
 
 }
 
-/********************************* CARD *********************************/
+/********************************* PROJECTS *********************************/
+.projects-case {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 50px;
+}
+
+/********************************* PROJECTS - CARD *********************************/
+.fake-card {
+  background-color: #8babf1;
+  height: 250px;
+  width: 250px;
+}
+
 .card {
 
 }
@@ -57,3 +95,7 @@ button.theme-control:hover {
 }
 
 /********************************* CONTACT *********************************/
+
+/********************************* MEDIA - TABLET *********************************/
+
+/********************************* MEDIA - MOBILE *********************************/
