@@ -8,8 +8,10 @@
 </head>
 <body>
   <div class="case">
-    <button class="theme-control">Light/Dark</button>
-    <header>
+    <div class="flexy pull-right">
+      <button class="theme-control">Light/Dark</button>
+    </div>
+    <header class="flexy">
       <h1>Simon Mei</h1>
       <nav>
         <a href="#about">About me</a>
@@ -20,13 +22,37 @@
     <main>
       <section class="about">
         <h2>About me</h2>
+        <div class="flexy about">
+          <picture class="portrait">
+            <source media="(max-width: 500px)" srcset="./assets/simon-on-rock-close.jpeg"/>
+            <source media="(min-width: 501px)" srcset="./assets/simon-on-rock.jpeg"/>
+            <img class="portrait" src="./assets/simon-on-rock.jpeg" alt="">
+          </picture>
+          <p>Hi there! My name is Simon and I'm an aspiring fullstack developer. I acquired my skills in responsive web design through The Odin Project, an open-source fullstack development curriculum. wer
+          </p>
+        </div>
       </section>
       <section class="projects">
         <h2>Projects</h2>
+        <div class="projects-case">
+          <div class="fake-card"></div>
+          <div class="fake-card"></div>
+          <div class="fake-card"></div>
+          <div class="fake-card"></div>
+          <div class="fake-card"></div>
+          <div class="fake-card"></div>
+        </div>
       </section>
     </main>
     <footer>
       <h2>Contact me</h2>
+      <form action="">
+        <label for="email">Email: </label><input type="email" id="email">
+        <br>
+        <label for="name">Name: </label><input type="text">
+        <br>
+        <label for="message">Message: </label><input type="textarea">
+      </form>
     </footer>
   </div>
 </body>
