@@ -13,8 +13,9 @@ body {
 .case {
   background-color: white;
   padding: 50px 100px;
-  border-radius: 5px;
-  margin: 20px 20px;
+  border-radius: 10px;
+  margin: 50px auto;
+  max-width: 1000px;
 }
 
 .flexy {
@@ -43,7 +44,7 @@ button.theme-control {
   padding: 5px 10px;
   background-color: #8babf1;
   font-size: 1.1rem;
-  border-radius: 5px;
+  border-radius: 10px;
   border-style: none;
   transition: all 0.3s ease;
 }
@@ -65,11 +66,13 @@ div.about {
 }
 
 img.portrait {
-  width: 40vw;
+  width: 100%;
+  border-radius: 10px;
 }
 
-.bio {
-
+.about-text {
+  flex-direction: column;
+  gap: 20px;
 }
 
 /********************************* PROJECTS *********************************/
@@ -87,7 +90,14 @@ img.portrait {
 }
 
 .card {
+  background-color: #8babf1;
+  border-radius: 10px;
+  width: 250px;
+  min-height: 250px;
+}
 
+.card-image {
+  height: 125px;
 }
 
 .card-title {
