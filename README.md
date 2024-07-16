@@ -2,12 +2,12 @@
 
 ## Deliverables
 
-- [] Responsive on desktop
-- [] Responsive on tablet
-- [] Responsive on mobile
-- [] Portrait with about me
-- [] Project cards
-- [] Footer
+- [x] Responsive on desktop
+- [x] Responsive on tablet
+- [x] Responsive on mobile
+- [x] Portrait with about me
+- [x] Project cards
+- [x] Footer
 
 ## Thoughts
 
