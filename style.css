@@ -18,6 +18,14 @@ body {
   max-width: 1000px;
 }
 
+h2 {
+  margin-bottom: 15px;
+}
+
+section {
+  margin: 50px 0; 
+}
+
 .flexy {
   display: flex;
 }
@@ -28,6 +36,18 @@ body {
 
 .pull-left {
   justify-content: flex-start;
+}
+
+.big-shadow {
+  box-shadow: 7px 7px black;
+}
+
+.sm-shadow {
+  box-shadow: 5px 5px black;
+}
+
+.x-sm-shadow {
+  box-shadow: 3px 3px black;
 }
 
 /********************************* HEADER *********************************/
@@ -80,6 +100,7 @@ img.portrait {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 50px;
+  justify-items: center;
 }
 
 /********************************* PROJECTS - CARD *********************************/
@@ -98,14 +119,52 @@ img.portrait {
 
 .card-image {
   height: 125px;
+  overflow: hidden;
 }
 
-.card-title {
-
+.card img {
+  height: 100%;
+  width: 100%;
+  border-radius: 10px 10px 0 0;
 }
 
 /********************************* CONTACT *********************************/
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
 /********************************* MEDIA - TABLET *********************************/
+@media (max-width: 1000px) {
+  picture {
+    flex-shrink: 0;
+    width: 50%;
+  }
 
+  .case {
+    margin: 15px;
+  }
+}
 /********************************* MEDIA - MOBILE *********************************/
+@media (max-width: 500px) {
+  div.about {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  picture {
+    width: 100%;
+  }
+  
+  .case {
+    margin: 10px;
+    padding: 10px;
+  }
+
+  nav {
+    display: flex;
+    flex-direction: column;
+  }
+}

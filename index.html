@@ -7,10 +7,10 @@
   <title>Homepage</title>
 </head>
 <body>
-  <div class="case">
-    <div class="flexy pull-right">
-      <button class="theme-control">Light/Dark</button>
-    </div>
+  <div class="case big-shadow">
+    <!-- <div class="flexy pull-right">
+      <button class="theme-control x-sm-shadow">Light/Dark</button>
+    </div> -->
     <header class="flexy">
       <h1>Simon Mei</h1>
       <nav>
@@ -21,11 +21,11 @@
     </header>
     <main>
       <section class="about">
-        <h2>About me</h2>
+        <h2 id="about">About me</h2>
         <div class="flexy about">
           <picture class="portrait">
-            <source media="(max-width: 500px)" srcset="./assets/simon-on-rock-close.jpeg"/>
-            <source media="(min-width: 501px)" srcset="./assets/simon-on-rock.jpeg"/>
+            <source media="(max-width: 1000px)" srcset="./assets/simon-on-rock-close.jpeg"/>
+            <source media="(min-width: 1001px)" srcset="./assets/simon-on-rock.jpeg"/>
             <img class="portrait" src="./assets/simon-on-rock.jpeg" alt="">
           </picture>
           <div class="flexy about-text">
@@ -41,39 +41,22 @@
         </div>
       </section>
       <section class="projects">
-        <h2>Projects</h2>
+        <h2 id="projects">Projects</h2>
         <div class="projects-case">
-          <div class="card">
-            <div class="card-image">
-              <img src="" alt="Project Thumbnail">
-            </div>
-            <div class="card-content">
-              <p>Project Title</p>
-              <p>Description</p>
-              <div class="card-links">
-                <a href="">Github</a>
-                <a href="">Live</a>
-              </div>
-            </div>
-          </div>
-          <div class="fake-card"></div>
-          <div class="fake-card"></div>
-          <div class="fake-card"></div>
-          <div class="fake-card"></div>
-          <div class="fake-card"></div>
         </div>
       </section>
     </main>
     <footer>
-      <h2>Contact me</h2>
+      <h2 id="contact">Contact me</h2>
       <form action="">
         <label for="email">Email: </label><input type="email" id="email">
         <br>
-        <label for="name">Name: </label><input type="text">
+        <label for="name">Name: </label><input type="text" id="name">
         <br>
-        <label for="message">Message: </label><input type="textarea">
+        <label for="message">Message: </label><input type="textarea" id="message">
       </form>
     </footer>
   </div>
+  <script src="index.js"></script>
 </body>
 </html>
