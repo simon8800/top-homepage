@@ -40,7 +40,7 @@ const projects = [
   {
     title: "Battleships",
     description: "JavaScript implementation of the classic Battleship game",
-    imageUrl: "assets/battleship-thumbnail.png",
+    imageUrl: "./assets/battleship-thumbnail.png",
     github: "https://github.com/simon8800/top-battleships",
     live: "https://simon8800.github.io/top-battleships/",
   },
@@ -48,14 +48,14 @@ const projects = [
     title: "Todo App",
     description:
       "A todo app that utilizes browser storage for persistent storage",
-    imageUrl: "assets/todo-thumbnail.png",
+    imageUrl: "./assets/todo-thumbnail.png",
     github: "https://github.com/simon8800/TOP-todo",
     live: "https://simon8800.github.io/TOP-todo/",
   },
   {
     title: "Weather App",
     description: "Weather App using data from WeatherAPI",
-    imageUrl: "assets/weather-thumbnail.png",
+    imageUrl: "./assets/weather-thumbnail.png",
     github: "https://github.com/simon8800/top-weather-app",
     live: "https://simon8800.github.io/top-weather-app/",
   },
